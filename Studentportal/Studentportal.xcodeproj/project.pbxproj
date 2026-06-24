@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2012822DBA05F9000BF809 /* StudentportalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2012812DBA05F9000BF809 /* StudentportalApp.swift */; };
+		AC2012842DBA05F9000BF809 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2012832DBA05F9000BF809 /* ContentView.swift */; };
+		AC2012862DBA05FA000BF809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2012852DBA05FA000BF809 /* Assets.xcassets */; };
+		AC2012892DBA05FA000BF809 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2012882DBA05FA000BF809 /* Preview Assets.xcassets */; };
+		AC2012932DBA05FA000BF809 /* StudentportalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2012922DBA05FA000BF809 /* StudentportalTests.swift */; };
+		AC20129D2DBA05FA000BF809 /* StudentportalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20129C2DBA05FA000BF809 /* StudentportalUITests.swift */; };
+		AC20129F2DBA05FA000BF809 /* StudentportalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20129E2DBA05FA000BF809 /* StudentportalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC20128F2DBA05FA000BF809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC2012762DBA05F9000BF809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC20127D2DBA05F9000BF809;
+			remoteInfo = Studentportal;
+		};
+		AC2012992DBA05FA000BF809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC2012762DBA05F9000BF809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC20127D2DBA05F9000BF809;
+			remoteInfo = Studentportal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC20127E2DBA05F9000BF809 /* Studentportal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studentportal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2012812DBA05F9000BF809 /* StudentportalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentportalApp.swift; sourceTree = "<group>"; };
+		AC2012832DBA05F9000BF809 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC2012852DBA05FA000BF809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC2012882DBA05FA000BF809 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC20128E2DBA05FA000BF809 /* StudentportalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentportalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2012922DBA05FA000BF809 /* StudentportalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentportalTests.swift; sourceTree = "<group>"; };
+		AC2012982DBA05FA000BF809 /* StudentportalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentportalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC20129C2DBA05FA000BF809 /* StudentportalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentportalUITests.swift; sourceTree = "<group>"; };
+		AC20129E2DBA05FA000BF809 /* StudentportalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentportalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC20127B2DBA05F9000BF809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC20128B2DBA05FA000BF809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2012952DBA05FA000BF809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC2012752DBA05F9000BF809 = {
+			isa = PBXGroup;
+			children = (
+				AC2012802DBA05F9000BF809 /* Studentportal */,
+				AC2012912DBA05FA000BF809 /* StudentportalTests */,
+				AC20129B2DBA05FA000BF809 /* StudentportalUITests */,
+				AC20127F2DBA05F9000BF809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC20127F2DBA05F9000BF809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC20127E2DBA05F9000BF809 /* Studentportal.app */,
+				AC20128E2DBA05FA000BF809 /* StudentportalTests.xctest */,
+				AC2012982DBA05FA000BF809 /* StudentportalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC2012802DBA05F9000BF809 /* Studentportal */ = {
+			isa = PBXGroup;
+			children = (
+				AC2012812DBA05F9000BF809 /* StudentportalApp.swift */,
+				AC2012832DBA05F9000BF809 /* ContentView.swift */,
+				AC2012852DBA05FA000BF809 /* Assets.xcassets */,
+				AC2012872DBA05FA000BF809 /* Preview Content */,
+			);
+			path = Studentportal;
+			sourceTree = "<group>";
+		};
+		AC2012872DBA05FA000BF809 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC2012882DBA05FA000BF809 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC2012912DBA05FA000BF809 /* StudentportalTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC2012922DBA05FA000BF809 /* StudentportalTests.swift */,
+			);
+			path = StudentportalTests;
+			sourceTree = "<group>";
+		};
+		AC20129B2DBA05FA000BF809 /* StudentportalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC20129C2DBA05FA000BF809 /* StudentportalUITests.swift */,
+				AC20129E2DBA05FA000BF809 /* StudentportalUITestsLaunchTests.swift */,
+			);
+			path = StudentportalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC20127D2DBA05F9000BF809 /* Studentportal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2012A22DBA05FA000BF809 /* Build configuration list for PBXNativeTarget "Studentportal" */;
+			buildPhases = (
+				AC20127A2DBA05F9000BF809 /* Sources */,
+				AC20127B2DBA05F9000BF809 /* Frameworks */,
+				AC20127C2DBA05F9000BF809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Studentportal;
+			productName = Studentportal;
+			productReference = AC20127E2DBA05F9000BF809 /* Studentportal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC20128D2DBA05FA000BF809 /* StudentportalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2012A52DBA05FA000BF809 /* Build configuration list for PBXNativeTarget "StudentportalTests" */;
+			buildPhases = (
+				AC20128A2DBA05FA000BF809 /* Sources */,
+				AC20128B2DBA05FA000BF809 /* Frameworks */,
+				AC20128C2DBA05FA000BF809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2012902DBA05FA000BF809 /* PBXTargetDependency */,
+			);
+			name = StudentportalTests;
+			productName = StudentportalTests;
+			productReference = AC20128E2DBA05FA000BF809 /* StudentportalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC2012972DBA05FA000BF809 /* StudentportalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2012A82DBA05FA000BF809 /* Build configuration list for PBXNativeTarget "StudentportalUITests" */;
+			buildPhases = (
+				AC2012942DBA05FA000BF809 /* Sources */,
+				AC2012952DBA05FA000BF809 /* Frameworks */,
+				AC2012962DBA05FA000BF809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC20129A2DBA05FA000BF809 /* PBXTargetDependency */,
+			);
+			name = StudentportalUITests;
+			productName = StudentportalUITests;
+			productReference = AC2012982DBA05FA000BF809 /* StudentportalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC2012762DBA05F9000BF809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AC20127D2DBA05F9000BF809 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AC20128D2DBA05FA000BF809 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AC20127D2DBA05F9000BF809;
+					};
+					AC2012972DBA05FA000BF809 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AC20127D2DBA05F9000BF809;
+					};
+				};
+			};
+			buildConfigurationList = AC2012792DBA05F9000BF809 /* Build configuration list for PBXProject "Studentportal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC2012752DBA05F9000BF809;
+			productRefGroup = AC20127F2DBA05F9000BF809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC20127D2DBA05F9000BF809 /* Studentportal */,
+				AC20128D2DBA05FA000BF809 /* StudentportalTests */,
+				AC2012972DBA05FA000BF809 /* StudentportalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC20127C2DBA05F9000BF809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2012892DBA05FA000BF809 /* Preview Assets.xcassets in Resources */,
+				AC2012862DBA05FA000BF809 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC20128C2DBA05FA000BF809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2012962DBA05FA000BF809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC20127A2DBA05F9000BF809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2012842DBA05F9000BF809 /* ContentView.swift in Sources */,
+				AC2012822DBA05F9000BF809 /* StudentportalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC20128A2DBA05FA000BF809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2012932DBA05FA000BF809 /* StudentportalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2012942DBA05FA000BF809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC20129F2DBA05FA000BF809 /* StudentportalUITestsLaunchTests.swift in Sources */,
+				AC20129D2DBA05FA000BF809 /* StudentportalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC2012902DBA05FA000BF809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC20127D2DBA05F9000BF809 /* Studentportal */;
+			targetProxy = AC20128F2DBA05FA000BF809 /* PBXContainerItemProxy */;
+		};
+		AC20129A2DBA05FA000BF809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC20127D2DBA05F9000BF809 /* Studentportal */;
+			targetProxy = AC2012992DBA05FA000BF809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC2012A02DBA05FA000BF809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC2012A12DBA05FA000BF809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC2012A32DBA05FA000BF809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Studentportal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utu.ac.in.Studentportal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC2012A42DBA05FA000BF809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Studentportal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utu.ac.in.Studentportal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC2012A62DBA05FA000BF809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utu.ac.in.StudentportalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Studentportal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Studentportal";
+			};
+			name = Debug;
+		};
+		AC2012A72DBA05FA000BF809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utu.ac.in.StudentportalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Studentportal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Studentportal";
+			};
+			name = Release;
+		};
+		AC2012A92DBA05FA000BF809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utu.ac.in.StudentportalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Studentportal;
+			};
+			name = Debug;
+		};
+		AC2012AA2DBA05FA000BF809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = utu.ac.in.StudentportalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Studentportal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC2012792DBA05F9000BF809 /* Build configuration list for PBXProject "Studentportal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2012A02DBA05FA000BF809 /* Debug */,
+				AC2012A12DBA05FA000BF809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2012A22DBA05FA000BF809 /* Build configuration list for PBXNativeTarget "Studentportal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2012A32DBA05FA000BF809 /* Debug */,
+				AC2012A42DBA05FA000BF809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2012A52DBA05FA000BF809 /* Build configuration list for PBXNativeTarget "StudentportalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2012A62DBA05FA000BF809 /* Debug */,
+				AC2012A72DBA05FA000BF809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2012A82DBA05FA000BF809 /* Build configuration list for PBXNativeTarget "StudentportalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2012A92DBA05FA000BF809 /* Debug */,
+				AC2012AA2DBA05FA000BF809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC2012762DBA05F9000BF809 /* Project object */;
+}
